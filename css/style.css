@@ -135,13 +135,19 @@ button:hover{
 }
 @media screen and (max-width: 463px) {
     .main-section{
-        max-width: 100%;
+        max-width: 90%;
+    }
+    .product-details .head span{
+        font-size: 1rem;
     }
     .description h1{
         font-size: 1.7rem;
     }
+    .product-details{
+        padding: 20px 0px 20px 20px;
+    }
     .description p{
-        font-size: 1rem;
+        font-size: 0.7rem;
     }
     .price .discount-price{
         font-size: 1.5rem;
@@ -149,7 +155,13 @@ button:hover{
     .price .original-price{
         font-size: 1rem;
     }
+    .btn{
+        text-align: left;
+    }
     button{
         font-size: 1rem;
+        width: 90%;
+        margin: 10px auto;
     }
+
 }
