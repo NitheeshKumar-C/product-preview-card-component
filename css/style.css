@@ -133,9 +133,9 @@ button:hover{
         border-radius: 1rem 1rem 0 0;
     }
 }
-@media screen and (max-width: 466px) {
+@media screen and (max-width: 463px) {
     .main-section{
-        max-width: 20rem;
+        max-width: 100%;
     }
     .description h1{
         font-size: 1.7rem;
