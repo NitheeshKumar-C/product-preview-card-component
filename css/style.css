@@ -78,6 +78,7 @@ main{
     padding: 0;
     width: 100%;
     margin-top: 20px;
+    border: none;
 }
 button{
     margin-right: 20px;
